@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>RSC Bhuj – Science Explorer Quiz Portal</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Noto Sans',Arial,sans-serif;background:#f5f5f5;color:#1a1a1a;min-height:100vh;}
+.gov-header{background:linear-gradient(135deg,#1a237e 0%,#283593 60%,#1565c0 100%);padding:0;box-shadow:0 2px 8px rgba(0,0,0,0.3);}
+.gov-header-top{background:#fff;padding:8px 20px;display:flex;align-items:center;gap:16px;border-bottom:3px solid #ff6f00;}
+.gov-emblem{width:52px;height:52px;display:flex;align-items:center;justify-content:center;font-size:2.2rem;}
+.gov-title-block h1{font-size:1rem;font-weight:700;color:#1a237e;line-height:1.2;}
+.gov-title-block p{font-size:0.72rem;color:#555;font-weight:500;}
+.gov-nav{padding:10px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+.gov-nav-title{color:#fff;font-size:1rem;font-weight:600;letter-spacing:0.5px;}
+.gov-nav-right{color:rgba(255,255,255,0.85);font-size:0.78rem;}
+.main-body{max-width:900px;margin:0 auto;padding:28px 16px;}
+.hero{background:#fff;border:1px solid #ddd;border-radius:6px;padding:28px 24px;text-align:center;margin-bottom:24px;}
+.hero h2{font-size:1.3rem;font-weight:700;color:#1a237e;margin-bottom:8px;}
+.hero p{font-size:0.88rem;color:#555;line-height:1.7;max-width:600px;margin:0 auto;}
+.galleries-title{font-size:1rem;font-weight:700;color:#1a237e;margin-bottom:14px;padding-bottom:8px;border-bottom:2px solid #1a237e;}
+.gallery-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:24px;}
+.gal-card{background:#fff;border:1px solid #ddd;border-radius:6px;padding:20px;text-decoration:none;color:inherit;transition:all 0.2s;display:block;border-left:5px solid;}
+.gal-card:hover{transform:translateY(-2px);box-shadow:0 4px 16px rgba(0,0,0,0.12);}
+.gal-card-icon{font-size:2.2rem;margin-bottom:10px;}
+.gal-card-num{font-size:0.72rem;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;}
+.gal-card-name{font-size:1rem;font-weight:700;color:#1a237e;margin-bottom:6px;}
+.gal-card-info{font-size:0.78rem;color:#666;}
+.footer{background:#1a237e;color:rgba(255,255,255,0.8);text-align:center;padding:14px;font-size:0.75rem;border-radius:4px;}
+@media(max-width:600px){.gallery-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div class="gov-header">
+  <div class="gov-header-top">
+    <div class="gov-emblem">🏛️</div>
+    <div class="gov-title-block">
+      <h1>Regional Science Centre, Bhuj</h1>
+      <p>Ministry of Culture, Government of India &nbsp;|&nbsp; Science Explorer Initiative</p>
+    </div>
+  </div>
+  <div class="gov-nav">
+    <span class="gov-nav-title">🔬 Science Explorer Quiz Portal</span>
+    <span class="gov-nav-right">Visitor Quiz Portal</span>
+  </div>
+</div>
+
+<div class="main-body">
+  <div class="hero">
+    <h2>🏛️ Welcome to the RSC Bhuj Quiz Portal</h2>
+    <p>Scan the QR code at each gallery and take that gallery's quiz. Answer 9 questions and earn a digital certificate. Good luck, Science Explorer!</p>
+  </div>
+
+  <div class="galleries-title">📋 Select Your Gallery Quiz</div>
+  <div class="gallery-grid">
+    <a class="gal-card" href="gallery-1-marine-life/index.html" style="border-left-color:#00b4d8;">
+      <div class="gal-card-icon">🌊</div>
+      <div class="gal-card-num">Gallery 1</div>
+      <div class="gal-card-name">Marine Life</div>
+      <div class="gal-card-info">9 Questions · 18 Points · 30 sec/Q</div>
+    </a>
+    <a class="gal-card" href="gallery-2-energy/index.html" style="border-left-color:#e65100;">
+      <div class="gal-card-icon">⚡</div>
+      <div class="gal-card-num">Gallery 2</div>
+      <div class="gal-card-name">Energy</div>
+      <div class="gal-card-info">9 Questions · 18 Points · 30 sec/Q</div>
+    </a>
+    <a class="gal-card" href="gallery-3-mathematics/index.html" style="border-left-color:#7209b7;">
+      <div class="gal-card-icon">📐</div>
+      <div class="gal-card-num">Gallery 3</div>
+      <div class="gal-card-name">Mathematics</div>
+      <div class="gal-card-info">9 Questions · 18 Points · 30 sec/Q</div>
+    </a>
+    <a class="gal-card" href="gallery-4-bonsai/index.html" style="border-left-color:#2e7d32;">
+      <div class="gal-card-icon">🌿</div>
+      <div class="gal-card-num">Gallery 4</div>
+      <div class="gal-card-name">Bonsai</div>
+      <div class="gal-card-info">9 Questions · 18 Points · 30 sec/Q</div>
+    </a>
+    <a class="gal-card" href="gallery-5-nano-particles/index.html" style="border-left-color:#c62828;">
+      <div class="gal-card-icon">🔬</div>
+      <div class="gal-card-num">Gallery 5</div>
+      <div class="gal-card-name">Nano Particles</div>
+      <div class="gal-card-info">9 Questions · 18 Points · 30 sec/Q</div>
+    </a>
+    <a class="gal-card" href="gallery-6-space/index.html" style="border-left-color:#1565c0;">
+      <div class="gal-card-icon">🚀</div>
+      <div class="gal-card-num">Gallery 6</div>
+      <div class="gal-card-name">Space</div>
+      <div class="gal-card-info">9 Questions · 18 Points · 30 sec/Q</div>
+    </a>
+  </div>
+
+  <div class="footer">Regional Science Centre, Bhuj &nbsp;·&nbsp; Ministry of Culture, Government of India &nbsp;·&nbsp; Inspiring Young Scientific Minds</div>
+</div>
+</body>
+</html>
